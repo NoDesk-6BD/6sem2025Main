@@ -10,7 +10,7 @@ A branch é um recurso que permite à equipe trabalhar em diferentes versões do
 - `main`: Contém a versão estável e pronta para produção do projeto.<br>
 - `sprint-{número}`: Branch usada como base para as tarefas de sprint em andamento.
 
-> Example: `sprint-1`, `sprint-2`, `sprint-3`
+> Exemplo: `sprint-1`, `sprint-2`, `sprint-3`
 
 ### Formato:
 
@@ -31,7 +31,7 @@ A branch é um recurso que permite à equipe trabalhar em diferentes versões do
 feature/ND-1-criacao-estrutura-inicial-backend
 ~~~
 
-> Use letras minúsculas e hífens em vez de espaços. O código do issue deve vir da ferramenta de gerenciamento (Jira).
+> Use letras minúsculas e hífens em vez de espaços. O código do card deve vir da ferramenta de gerenciamento (Jira).
 
 <br>
 
