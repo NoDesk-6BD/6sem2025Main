@@ -19,10 +19,9 @@ A branch é um recurso que permite à equipe trabalhar em diferentes versões do
 ~~~
 
 ### Tipos permitidos:
-- `feature` - Nova funcionalidade.
-- `fix` - Correção de bugs em desenvolvimento.
-- `bugfix` - Correção de bugs encontrados em produção.
-- `hotfix` - Correção urgente em produção.
+- `feature` - Implementação de nova funcionalidade.
+- `fix` - Correção de bugs, tanto em desenvolvimento quanto em produção.
+- `hotfix` - Correção urgente de bugs críticos em produção.
 - `chore` - Tarefas de manutenção ou ajustes sem impacto direto no código-fonte.
 
 ### Exemplo:
@@ -36,7 +35,7 @@ feature/ND-1-criacao-estrutura-inicial-backend
 <br>
 
 ## Padrão de Commit
-A padronização de mensagens de commits é uma prática importante, pois, além de ajudar na compreensão do histórico de commits, facilita a criação de ferramentas automatizadas baseadas na especificação.<br>
+A padronização de mensagens de commits é uma prática importante, pois além de ajudar na compreensão do histórico de commits, facilita a criação de ferramentas automatizadas baseadas na especificação.<br>
 Saiba mais clicando aqui: [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### Formato:
