@@ -7,7 +7,7 @@ Este documento visa padronizar as práticas de desenvolvimento em todos os repos
 A branch é um recurso que permite à equipe trabalhar em diferentes versões do código ao mesmo tempo, sem interferir no que já está estável e funcionando.
 
 ### Branches Principais:
-- `main`: Contém a versão estável e pronta para produção do projeto.<br>
+- `main`: Contém a versão estável e pronta para produção do projeto.
 - `sprint-{número}`: Branch usada como base para as tarefas de sprint em andamento.
 
 > Exemplo: `sprint-1`, `sprint-2`, `sprint-3`
