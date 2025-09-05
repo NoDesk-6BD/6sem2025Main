@@ -36,5 +36,8 @@ Instalação e ativação:
 Utilizando commit fora do padrão:
 ![](../images/pre-commit-non-standard.png)
 
-Utilizando commit detro do padrão:
-![](../images/pre-commit-standard.png)
+Utilizando commit detro do padrão, porém com erros em códigos (ESlint/Prettier)
+![](../images/pre-commit-code-errors.png)
+
+Utilizando commit detro do padrão, e todas as validações passadas:
+![](../images/pre-commit-standard-success.png)
