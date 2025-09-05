@@ -1,0 +1,44 @@
+# Arquivos e diretórios gerados por ferramentas Node.js
+/node_modules
+/dist
+/build
+/coverage
+/npm-debug.log
+.env
+.env.local
+.env.*.local
+
+# Arquivos de log e de cache
+/logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store
+
+# Diretórios e arquivos de configuração do IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Arquivos temporários e de sistema
+tmp/
+*.tmp
+*.log
+*.bak
+
+# Arquivos de cache e de build do Vue.js
+/.nuxt/
+/dist-ssr/
+/dist-static/
+/src/.nuxt/
+
+# Diretório de cache do pre-commit
+/.pre-commit-cache/
+
+# Ignorar o `package-lock.json` se você usa `pnpm` ou `yarn`
+# package-lock.json
+
+# Ignorar o `yarn.lock` se você usa `npm`
+# yarn.lock

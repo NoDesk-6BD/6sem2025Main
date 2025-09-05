@@ -31,13 +31,25 @@ _Formato padrão, exemplo e tipos permitidos, consultar [padrão-branch-commit.m
 ### Utilização do pre-commit:
 
 Instalação e ativação:
+
 ![](../images/pre-commit-install-active.png)
 
+<br>
+
 Utilizando commit fora do padrão:
+
 ![](../images/pre-commit-non-standard.png)
 
-Utilizando commit detro do padrão, porém com erros em códigos (ESlint/Prettier)
+<br>
+
+Utilizando commit detro do padrão, porém com erros em códigos (ESlint/Prettier):
+
 ![](../images/pre-commit-code-errors.png)
 
+<br>
+
 Utilizando commit detro do padrão, e todas as validações passadas:
+
 ![](../images/pre-commit-standard-success.png)
+
+<br>
