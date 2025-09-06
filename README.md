@@ -58,8 +58,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr>
         <td>RF02</td>
-        <td>Pontuar Problemas Principais</td>
-        <td>O usuário precisa ver de forma fácil quais aplicações e quais tipos de erro geram mais chamados, para saber onde o time deve focar.</td>
+        <td>Pontuar Aplicações Críticas</td>
+        <td>O usuário precisa ver de forma fácil quais aplicações geram mais chamados, para identificar qualidade aquém do esperado.</td>
     </tr>
     <tr>
         <td>RF03</td>
@@ -74,12 +74,12 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     <tr>
         <td>RF05</td>
         <td>Mostrar Chamados Atrasados</td>
-        <td>O sistema precisa mostrar quantos chamados já passaram do prazo de entrega (SLA) e quanto tempo a equipe leva para resolve-los.</td>
+        <td>O sistema precisa mostrar quantos chamados já passaram do prazo de entrega (SLA), para identificar falhas nas performance da equipe de suporte.</td>
     </tr>
     <tr>
         <td>RF06</td>
-        <td>Medir a Satisfação do Cliente</td>
-        <td>O usuário deve conseguir ver a nota de satisfação que um cliente deu, para saber se ele está contente ou se precisa de atenção.</td>
+        <td>Pontuar Categorias Críticas</td>
+        <td>O usuário precisa identificar quais categorias geram mais chamados, para saber quais equipes acionar a fim de mudar estratégias.</td>
     </tr>
 </table>
 
@@ -209,7 +209,7 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
 - Subtarefas divididas **a partir das User Story**
 - Design no **Figma**
 - Modelagem do **Banco de Dados**
-- ...
+- Dependências externas **estão resolvidas ou mapeadas**
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
