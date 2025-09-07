@@ -33,7 +33,7 @@
 
 ## 🎯 Desafio <a id="desafio"></a>
 
-A área de suporte da Pro4tech enfrenta dificuldades para tomar decisões estratégicas por falta de uma análise clara e consolidada dos dados de chamados. A equipe lida com problemas como lentidão no atendimento e respostas repetitivas, sem conseguir identificar facilmente as causas-raiz para implementar melhorias eficazes. A ausência de uma ferramenta centralizada para gerar insights obriga os gestores a basearem suas ações em intuição, em vez de dados concretos, dificultando a prevenção de problemas e a otimização de recursos.
+A Pro4tech enfrenta dificuldades para tomar decisões estratégicas por falta de uma análise clara e consolidada dos dados de chamados recebidos pela equipe de suporte. A ausência de uma ferramenta centralizada para gerar insights obriga os gestores a basearem suas ações em intuição, em vez de dados concretos, dificultando a prevenção de problemas para o cliente e a otimização de recursos.
 
 <br>
 
@@ -74,7 +74,7 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     <tr>
         <td>RF05</td>
         <td>Mostrar Chamados Atrasados</td>
-        <td>O sistema precisa mostrar quantos chamados já passaram do prazo de entrega (SLA), para identificar falhas nas performance da equipe de suporte.</td>
+        <td>O sistema precisa mostrar quantos chamados já passaram do prazo de entrega (SLA), para identificar falhas na performance da equipe de suporte.</td>
     </tr>
     <tr>
         <td>RF06</td>
@@ -151,7 +151,7 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
         <td align="left">Como tomador de decisão, eu quero identificar as categorias com maior número de chamados, para revisar os planos de ação e realocar recursos nos setores mais críticos.</td>
         <td>6</td>
         <td>1</td>
-        <td>RF01, RF02</td>
+        <td>RF01, RF06</td>
         <td>🚧</td>
     </tr>
     <tr align="center">
@@ -187,7 +187,7 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
         <td align="left">Como tomador de decisão, eu quero visualizar em um dashboard o nível de satisfação de um cliente específico, para agir de forma proativa na sua retenção.</td>
         <td>20</td>
         <td>3</td>
-        <td>RF01, RF06</td>
+        <td>RF01</td>
         <td>🚧</td>
     </tr>
     <tr align="center">
