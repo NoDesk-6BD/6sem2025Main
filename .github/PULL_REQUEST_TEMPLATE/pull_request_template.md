@@ -1,17 +1,20 @@
-### 📝 Descrição
-Breve explicação do que foi feito nesta PR.
+### 📝 Description
 
-### 🔄 Alterações Realizadas
-- [ ] Atualização de documentação
-- [ ] Outros:
+Brief explanation of what was done in this PR.
+
+### 🔄 Changes Made
+
+- [ ] Documentation Update
+- [ ] Other:
 
 ---
 
 ### ✅ Definition of Done (DoD)
-A PR só será considerada concluída se atender aos critérios abaixo:
 
-- [ ] Código revisado por pelo menos um membro da equipe.
-- [ ] Documentação atualizada (se necessário).
-- [ ] Branch sem conflitos com a branch principal da sprint.
-- [ ] PR contém descrição clara.
-- [ ] Critérios de aceitação da tarefa no Jira foram atendidos.
+The PR will only be considered complete if it meets the following criteria:
+
+- [ ] Code reviewed by at least one team member.
+- [ ] Documentation updated (if necessary).
+- [ ] Branch without conflicts with the sprint's main branch.
+- [ ] PR contains a clear description.
+- [ ] Jira task acceptance criteria met.
