@@ -1,55 +1,53 @@
-## Objetivo
+## Objective
 
-Este documento visa padronizar as práticas de desenvolvimento em todos os repositórios do projeto, promovendo consistência, legibilidade e colaboração eficiente entre os membros da equipe. As diretrizes se aplicam a todas as partes interessadas, incluindo as equipes de Frontend, Backend e DevOps.
+This document aims to standardize development practices across all project repositories, promoting consistency, readability, and efficient collaboration among team members. The guidelines apply to all stakeholders, including Frontend, Backend, DevOps and ETL teams.
 
 <br>
 
 ## Pre-commit Config
 
-Todos os repositórios estão preparados para utilizar o `pre-commit` para padronizar os comites realizados pelo utilizado durante o desenvolvimento do projeto. Essa padronização são baseadas na [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+All repositories are prepared to use `pre-commit` to standardize the commits used during project development. This standardization is based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-Em todos os repositórios haverá na raiz do projeto o arquivo `.pre-commit-config.yaml`, configurado para atender a linguagem utilizada em cada repositório seja Documentação, Frontend, Backend ou DevOps.
+All repositories will have a `.pre-commit-config.yaml` file at the project root, configured to match the language used in each repository, whether Documentation, Frontend, Backend, or DevOps.
 
 <br>
 
-### Ativação do pre-commit:
+### Enabling pre-commit:
 
-Após clonar o repositório o desenvolvedor deverá instalar e ativar o `pre-commit`através do comando:
+After cloning the repository, the developer must install and enable `pre-commit` using the command:
 
-Instalação e ativação:
+Installation and activation:
 
 ```bash
 pre-commit install --hook-type commit-msg --hook-type pre-commit
 ```
 
-_Demais informações também pode ser avaliadas no README.md de cada repositório._
+_Further information can also be found in each repository's README.md._
 
-_Formato padrão, exemplo e tipos permitidos, consultar [padrão-branch-commit.md](./padrao-branch-commit.md)_
+_For the standard format, example, and allowed types, see [standard-branch-commit.md](./standard-branch-commit.md)_
 
 <br>
 
-### Utilização do pre-commit:
+### Using pre-commit:
 
-Instalação e ativação:
+Installation and activation:
 
 ![](../images/pre-commit-install-active.png)
 
 <br>
 
-Utilizando commit fora do padrão:
+Using commit outside of Standard:
 
 ![](../images/pre-commit-non-standard.png)
 
 <br>
 
-Utilizando commit detro do padrão, porém com erros em códigos (ESlint/Prettier):
+Using non-standard commit, but with code errors (ESlint/Prettier):
 
 ![](../images/pre-commit-code-errors.png)
 
 <br>
 
-Utilizando commit detro do padrão, e todas as validações passadas:
+Using non-standard commit, and all validations passed:
 
 ![](../images/pre-commit-standard-success.png)
-
-<br>
