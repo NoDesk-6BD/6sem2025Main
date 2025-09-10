@@ -1,6 +1,6 @@
 <div align="center">
 
-# API 6º Semestre BD - NoDesk
+# API 6th Semester BD - NoDesk
 
 </div>
 
@@ -9,137 +9,137 @@
 </p>
 
 <p align="center">
-  | <a href ="#desafio">Desafio</a>  |
-  <a href ="#solucao">Solução</a>  |
-  <a href ="#requisitos">Requisitos</a>  |
-  <a href ="#backlog">Backlog do Produto</a>  |
-  <a href ="#dor">DoR</a>  |
-  <a href ="#dod">DoD</a>  |
-  <a href ="#sprint">Cronograma de Sprints</a>  |
-  <a href ="#tecnologias">Tecnologias</a> |
-  <a href ="#manual">Manual de Instalação</a>  |
-  <a href ="#equipe">Equipe</a> |
+    | <a href ="#challenge">Challenge</a> |
+    <a href ="#solution">Solution</a> |
+    <a href ="#requirements">Requirements</a> |
+    <a href ="#backlog">Product Backlog</a> |
+    <a href ="#dor">DoR</a> |
+    <a href ="#dod">DoD</a> |
+    <a href ="#sprint">Sprint Schedule</a> |
+    <a href ="#technologies">Technologies</a> |
+    <a href ="#manual">Installation Manual</a> |
+    <a href ="#team">Team</a> |
 </p>
 
 <br>
 
-> Status do Projeto: Em desenvolvimento 🚧
+> Project Status: In Development 🚧
 >
-> Pasta de Documentação: [Link](documentation) 📄
+> Documentation Folder: [Link](documentation) 📄
 >
-> Video do Projeto: 📽️
+> Project Video: 📽️
 
 <br>
 
-## 🎯 Desafio <a id="desafio"></a>
+## 🎯 Challenge <a id="challenge"></a>
 
-A Pro4tech enfrenta dificuldades para tomar decisões estratégicas por falta de uma análise clara e consolidada dos dados de chamados recebidos pela equipe de suporte. A ausência de uma ferramenta centralizada para gerar insights obriga os gestores a basearem suas ações em intuição, em vez de dados concretos, dificultando a prevenção de problemas para o cliente e a otimização de recursos.
-
-<br>
-
-## 💡 Solução <a id="solucao"></a>
-
-Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que se conecta ao banco de dados da Pro4tech para modernizar e analisar os dados de suporte. A solução irá transformar dados brutos em insights visuais e acionáveis através de dashboards interativos. Com o <_**>, os tomadores de decisão poderão identificar rapidamente os projetos e categorias mais problemáticos, acompanhar a evolução dos chamados, monitorar a eficiência da equipe e agir proativamente para melhorar a satisfação do cliente, tudo em conformidade com a LGPD.
+Pro4tech faces difficulties in making strategic decisions due to the lack of a clear and consolidated analysis of the call data received by the support team. The lack of a centralized tool to generate insights forces managers to base their actions on intuition rather than concrete data, making it difficult to prevent problems for the customer and optimize resources.
 
 <br>
 
-## 📋 Requisitos Funcionais <span id="requisitos">
+## 💡 Solution <a id="solution"></a>
+
+Develop the <**_> platform, a Business Intelligence (BI) tool that connects to Pro4tech's database to modernize and analyze support data. The solution will transform raw data into visual and actionable insights through interactive dashboards. With <_**>, decision-makers will be able to quickly identify the most problematic projects and categories, track ticket progress, monitor team efficiency, and act proactively to improve customer satisfaction, all in compliance with the LGPD.
+
+<br>
+
+## 📋 Functional Requirements <span id="requirements">
 
 <table>
     <tr>
         <th>ID</th>
-        <th>Requisitos Funcionais</th>
-        <th>Descrição</th>
+        <th>Functional Requirements</th>
+        <th>Description</th>
     </tr>
     <tr>
         <td>RF01</td>
-        <td>Tela Principal com Gráficos (Dashboard)</td>
-        <td>O sistema deve ter uma tela inicial que mostra de forma visual os gráficos e as informações mais importantes retiradas dos chamados.</td>
+        <td>Main Screen with Graphs (Dashboard)</td>
+        <td>The system must have a home screen that visually displays graphs and the most important information extracted from the calls.</td>
     </tr>
     <tr>
         <td>RF02</td>
-        <td>Pontuar Aplicações Críticas</td>
-        <td>O usuário precisa ver de forma fácil quais aplicações geram mais chamados, para identificar qualidade aquém do esperado.</td>
+        <td>Score Critical Applications</td>
+        <td>Users need to easily see which applications generate the most calls to identify quality issues that are below expectations.</td>
     </tr>
     <tr>
         <td>RF03</td>
-        <td>Ver a Evolução dos Chamados</td>
-        <td>A ferramenta deve mostrar um gráfico de como o número de chamados aumenta ou diminui com o passar do tempo.</td>
+        <td>View Call Evolution</td>
+        <td>The tool should display a graph showing how the number of calls increases or decreases over time.</td>
     </tr>
     <tr>
         <td>RF04</td>
-        <td>Gerenciamento de Acessos</td>
-        <td>Permitir que um usuário administrador possa cadastrar, editar e remover o acesso de outros usuários à plataforma.</td>
+        <td>Access Management</td>
+        <td>Allow an administrator user to register, edit, and remove other users' access to the platform.</td>
     </tr>
     <tr>
         <td>RF05</td>
-        <td>Mostrar Chamados Atrasados</td>
-        <td>O sistema precisa mostrar quantos chamados já passaram do prazo de entrega (SLA), para identificar falhas na performance da equipe de suporte.</td>
+        <td>Show Overdue Calls</td>
+        <td>The system needs to display how many calls have already exceeded the delivery deadline (SLA) to identify gaps in the support team's performance.</td>
     </tr>
     <tr>
         <td>RF06</td>
-        <td>Pontuar Categorias Críticas</td>
-        <td>O usuário precisa identificar quais categorias geram mais chamados, para saber quais equipes acionar a fim de mudar estratégias.</td>
+        <td>Score Critical Categories</td>
+        <td>The user needs to identify which categories generate the most calls to know which teams to contact to change strategies.</td>
     </tr>
 </table>
 
-## 📋 Requisitos Não-Funcionais
+## 📋 Non-Functional Requirements
 
 <table>
     <tr>
         <th>ID</th>
-        <th>Requisitos Não-Funcionais</th>
-        <th>Descrição</th>
+        <th>Non-Functional Requirements</th>
+        <th>Description</th>
     </tr>
     <tr>
         <td>RNF01</td>
-        <td>Conformidade com a LGPD</td>
-        <td>O sistema deve tratar os dados em conformidade com a Lei Geral de Proteção de Dados (LGPD).</td>
+        <td>LGPD Compliance</td>
+        <td>The system must process data in compliance with the General Data Protection Law (LGPD).</td>
     </tr>
     <tr>
         <tr>
         <td>RNF02</td>
-        <td>Arquitetura de Persistência</td>
-        <td>A solução deverá utilizar um banco de dados não relacional (NoSQL) para armazenamento e consulta dos dados processados, garantindo escalabilidade e flexibilidade.</td>
+        <td>Persistence Architecture</td>
+        <td>The solution must use a non-relational database (NoSQL) to store and query processed data, ensuring scalability and flexibility.</td>
     </tr>
     <tr>
         <tr>
         <td>RNF03</td>
-        <td>Uso de Inteligência Artificial</td>
-        <td>O sistema deve empregar algoritmos ou serviços de IA para a geração de insights.</td>
+        <td>Use of Artificial Intelligence</td>
+        <td>The system must employ AI algorithms or services to generate insights.</td>
     </tr>
     <tr>
         <tr>
         <td>RNF04</td>
-        <td>Segurança no Acesso</td>
-        <td>O sistema deve garantir que apenas usuários autenticados e com as devidas permissões tenham acesso aos dados e funcionalidades da plataforma.</td>
+        <td>Access Security</td>
+        <td>The system must ensure that only authenticated users with the appropriate permissions have access to the platform's data and features.</td>
     </tr>
     <tr>
         <tr>
         <td>RNF05</td>
-        <td>Usabilidade e Documentação</td>
-        <td>A plataforma deve possuir uma interface intuitiva para usuários de negócio e ser acompanhada de um manual que detalhe suas funcionalidades (Manual de Usuário).</td>
+        <td>Usability and Documentation</td>
+        <td>The platform must have an intuitive interface for business users and be accompanied by a manual detailing its functionalities (User Manual).</td>
     </tr>
 </table>
 
 <br>
 
-## 📋 Backlog do Produto <a id="backlog"></a>
+## 📋 Product Backlog <a id="backlog"></a>
 
 <table>
     <tr>
         <th>Rank</th>
-        <th>Prioridade</th>
+        <th>Priority</th>
         <th>User Story</th>
         <th>Story Points</th>
         <th>Sprint</th>
-        <th>Requisito do Cliente</th>
+        <th>Customer Requirement</th>
         <th>Status</th>
     </tr>
     <tr align="center">
         <td>1</td>
-        <td>Alta</td>
-        <td align="left">Como tomador de decisão, eu quero saber os projetos com maior número de chamados, para priorizar ações de melhoria.</td>
+        <td>High</td>
+        <td align="left">As a decision-maker, I want to know which projects have the highest number of requests so I can prioritize improvement actions.</td>
         <td>8</td>
         <td>1</td>
         <td>RF01, RF02</td>
@@ -147,8 +147,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr align="center">
         <td>2</td>
-        <td>Alta</td>
-        <td align="left">Como tomador de decisão, eu quero identificar as categorias com maior número de chamados, para revisar os planos de ação e realocar recursos nos setores mais críticos.</td>
+        <td>High</td>
+        <td align="left">As a decision-maker, I want to identify the categories with the highest number of calls, so I can review action plans and reallocate resources to the most critical sectors.</td>
         <td>6</td>
         <td>1</td>
         <td>RF01, RF06</td>
@@ -156,8 +156,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr align="center">
         <td>3</td>
-        <td>Alta</td>
-        <td align="left">Como tomador de decisão, eu quero analisar a evolução do número de chamados nos últimos meses, segmentados por categoria, para medir o impacto das ações implementadas e ajustar a estratégia quando necessário.</td>
+        <td>High</td>
+        <td align="left">As a decision-maker, I want to analyze the evolution of the number of calls in recent months, segmented by category, to measure the impact of the actions implemented and adjust the strategy when necessary.</td>
         <td>8</td>
         <td>1</td>
         <td>RF01, RF03</td>
@@ -165,8 +165,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr align="center">
         <td>4</td>
-        <td>Alta</td>
-        <td align="left">Como cliente, eu quero que meus funcionários usem uma aplicação que atenda à LGPD, para evitar problemas jurídicos.</td>
+        <td>High</td>
+        <td align="left">As a customer, I want my employees to use an application that complies with the LGPD to avoid legal issues.</td>
         <td>10</td>
         <td>1 e 2</td>
         <td>RNF01</td>
@@ -174,8 +174,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr align="center">
         <td>5</td>
-        <td>Média</td>
-        <td align="left">Como tomador de decisão, eu quero visualizar o número de chamados vencidos, para avaliar a eficiência da equipe de suporte e identificar possíveis gargalos no atendimento.</td>
+        <td>Medium</td>
+        <td align="left">As a decision-maker, I want to visualize the number of overdue calls to assess the efficiency of the support team and identify potential bottlenecks in service.</td>
         <td>2</td>
         <td>2</td>
         <td>RF01, RF05</td>
@@ -183,8 +183,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr align="center">
         <td>6</td>
-        <td>Média</td>
-        <td align="left">Como tomador de decisão, eu quero visualizar em um dashboard o nível de satisfação de um cliente específico, para agir de forma proativa na sua retenção.</td>
+        <td>Medium</td>
+        <td align="left">As a decision-maker, I want to visualize a specific customer's satisfaction level on a dashboard so I can proactively retain them.</td>
         <td>20</td>
         <td>3</td>
         <td>RF01</td>
@@ -192,8 +192,8 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
     </tr>
     <tr align="center">
         <td>7</td>
-        <td>Baixa</td>
-        <td align="left">Como gerente do setor de relacionamento, quero cadastrar os usuários da aplicação para ter controle de quais funcionários têm acesso aos insights.</td>
+        <td>Low</td>
+        <td align="left">As a relationship manager, I want to register application users to control which employees have access to insights.</td>
         <td>5</td>
         <td>3</td>
         <td>RF04</td>
@@ -205,39 +205,39 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
 
-- User Stories com **Critérios de Aceitação**
-- Subtarefas divididas **a partir das User Story**
-- Design no **Figma**
-- Modelagem do **Banco de Dados**
-- Dependências externas **estão resolvidas ou mapeadas**
+- User Stories with **Acceptance Criteria**
+- Subtasks divided **from the User Stories**
+- Design in **Figma**
+- **Database** Modeling
+- External dependencies **are resolved or mapped**
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
-- Manual de Usuário
-- Manual da Aplicação
-- Documentação da API (Application Programming Interface)
-- Código completo
-- Vídeos de cada etapa de entrega
+- User Manual
+- Application Manual
+- API (Application Programming Interface) Documentation
+- Complete Code
+- Videos of each delivery stage
 
 <br>
 
-## 📅 Cronograma de Sprints <a id="sprint"></a>
+## 📅 Sprint Schedule <a id="sprint"></a>
 
 <table>
     <tr>
         <th>SPRINT</th>
-        <th>PERÍODO</th>
-        <th>DESCRIÇÃO</th>
+        <th>PERIOD</th>
+        <th>DESCRIPTION</th>
     </tr>
     <tr>
         <td>Kick-off</td>
         <td>25/08/2025 à 29/08/2025</td>
-        <td>Alinhamento inicial da equipe, apresentação do tema do projeto e definição de papéis e responsabilidades.</td>
+        <td>Initial team alignment, presentation of the project theme and definition of roles and responsibilities.</td>
     </tr>
     <tr>
         <td>Sprint 1</td>
         <td>08/09/2025 à 28/09/2025</td>
-        <td>Desenvolver a estrutura principal do dashboard. Implementar as visualizações de ranking de projetos e categorias com mais chamados. Criar o gráfico de análise da evolução do número de chamados ao longo do tempo. Iniciar a estruturação do tratamento de dados, garantindo a conformidade com a LGPD.</td>
+        <td>Develop the dashboard's main structure. Implement ranking views of projects and categories with the most requests. Create a graph analyzing the evolution of the number of requests over time. Begin structuring data processing, ensuring compliance with the LGPD.</td>
     </tr>
     <tr>
         <td>Sprint 2</td>
@@ -250,15 +250,15 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
         <td>-</td>
     </tr>
     <tr>
-        <td>Feira de Soluções</td>
+        <td>Solutions Fair</td>
         <td>04/12/2025</td>
-        <td>Apresentação da versão final do projeto desenvolvido pela equipe.</td>
+        <td>Presentation of the final version of the project developed by the team.</td>
     </tr>
 </table>
 
 <br>
 
-## 💻 Tecnologias <a id="tecnologias"></a>
+## 💻 Technologies <a id="technologies"></a>
 
 <h4 align="center">
  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
@@ -276,32 +276,32 @@ Desenvolver a plataforma <**_>, uma ferramenta de Business Intelligence (BI) que
 
 <br>
 
-## 📖 Manual de Instalação <a id="manual"></a>
+## 📖 Installation Manual <a id="manual"></a>
 
-### 🛠 Pré-requisitos
+### 🛠 Prerequisites
 
 - Git ([Download](https://git-scm.com/downloads))
 - Python 3.13+ ([Download](https://www.python.org/downloads))
 - Node.js 20+ ([Download](https://nodejs.org/en/download))
-- Poetry ([Documentação](https://python-poetry.org/))
+- Poetry ([Documentation](https://python-poetry.org/))
 
-### 1. Clonar o Repositório Principal
+### 1. Clone the Main Repository
 
 ```bash
 git clone https://github.com/NoDesk-6BD/6sem2025Main.git
 cd 6sem2025Main
 ```
 
-### 2. Configuração do Backend
+### 2. Backend Configuration
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/NoDesk-6BD/6sem2025Backend.git
    cd 6sem2025Backend
    ```
 
-2. Instale e prepare o ambiente Python com Poetry:
+2. Install and prepare the Python environment with Poetry:
 
    ```bash
    poetry config virtualenvs.in-project true
@@ -310,68 +310,68 @@ cd 6sem2025Main
    source .venv/bin/activate
    ```
 
-3. Gere um APP_SECRET para o arquivo `.env`:
+3. Generate an APP_SECRET for the `.env` file:
 
    ```bash
    python -c "import secrets; print(secrets.token_urlsafe(64))"
    ```
 
-4. Execute o backend em modo desenvolvimento:
+4. Run the backend in development mode:
 
    ```bash
    uvicorn nodesk:app --reload --port 8000
    ```
 
-   **Saída Esperada:**
+   **Expected Output:**
 
    - Health: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
    - Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-5. Para rodar testes:
+5. To run tests:
 
    ```bash
    pytest
    ```
 
-6. Qualidade de código:
+6. Code quality:
 
    ```bash
    ruff format .
    ruff check .
    ```
 
-### 3. Configuração do Frontend
+### 3. Frontend Configuration
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/NoDesk-6BD/6sem2025Frontend.git
    cd 6sem2025Frontend
    ```
 
-2. Instale as dependências do projeto Nuxt:
+2. Install the Nuxt project dependencies:
 
    ```bash
    npm install
    ```
 
-3. Execute o frontend em modo desenvolvimento:
+3. Run the frontend in development mode:
 
    ```bash
    npm run dev
    ```
 
-   **Saída Esperada:**
+   **Expected Output:**
 
    - App: [http://localhost:3000](http://localhost:3000)
 
-4. Para rodar testes:
+4. To run tests:
 
    ```bash
    npm run test
    ```
 
-5. Qualidade de código:
+5. Code quality:
 
    ```bash
    npm run lint
@@ -380,14 +380,14 @@ cd 6sem2025Main
 
 <br>
 
-## 👥 Equipe <a id="equipe"></a>
+## 👥 Team <a id="team"></a>
 
 <table>
     <tr>
-        <th>IDENTIFICAÇÃO</th>
-        <th>NOME</th>
-        <th>FUNÇÃO</th>
-        <th>MÍDIAS SOCIAIS</th>
+        <th>IDENTIFICATION</th>
+        <th>NAME</th>
+        <th>POSITION</th>
+        <th>SOCIAL MEDIA</th>
     </tr>
     <tr>
         <td><img src="https://avatars.githubusercontent.com/u/79020769?v=4" width="60"></td>
@@ -406,28 +406,28 @@ cd 6sem2025Main
     <tr>
         <td><img src="https://avatars.githubusercontent.com/u/109988937?v=4" width="60"></td>
         <td>Willian Caboski</td>
-        <td>Desenvolvedor</td>
+        <td>Developer</td>
         <td><a href="https://www.linkedin.com/in/willian-caboski/"><img src="https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge"></a>
 <a href="https://github.com/DankoCaboski"><img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"></a></td>
     </tr>
     <tr>
         <td><img src="https://avatars.githubusercontent.com/u/122806886?v=4" width="60"></td>
         <td>Jhonny Dutra</td>
-        <td>Desenvolvedor</td>
+        <td>Developer</td>
         <td><a href="https://www.linkedin.com/in/dutrajy/"><img src="https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge"></a>
 <a href="https://github.com/dutrajy"><img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"></a></td>
     </tr>
     <tr>
         <td><img src="https://avatars.githubusercontent.com/u/53319211?v=4" width="60"></td>
         <td>Wallace Caetano</td>
-        <td>Desenvolvedor</td>
+        <td>Developer</td>
         <td><a href="https://www.linkedin.com/in/wallace-caetano/"><img src="https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge"></a>
 <a href="https://github.com/UeresWally"><img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"></a></td>
     </tr>
     <tr>
         <td><img src="https://avatars.githubusercontent.com/u/62269345?v=4" width="60"></td>
         <td>William Antoniazzi</td>
-        <td>Desenvolvedor</td>
+        <td>Developer</td>
         <td><a href="https://www.linkedin.com/in/williamantoniazzi/"><img src="https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge"></a>
 <a href="https://github.com/williamantoniazzi"><img src="https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white" alt="GitHub Badge"></a></td>
     </tr>
