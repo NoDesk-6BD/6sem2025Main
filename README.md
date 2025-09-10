@@ -83,6 +83,9 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     </tr>
 </table>
 
+For further details regarding the acceptance criteria, please refer to the [Acceptance Criteria Documentation](documentation/acceptance_criteria.md).
+
+
 ## 📋 Non-Functional Requirements
 
 <table>
