@@ -33,7 +33,7 @@
 
 ## 🎯 Challenge <a id="challenge"></a>
 
-Pro4tech faces difficulties in making strategic decisions due to the lack of a clear and consolidated analysis of the call data received by the support team. The lack of a centralized tool to generate insights forces managers to base their actions on intuition rather than concrete data, making it difficult to prevent problems for the customer and optimize resources.
+Pro4tech faces difficulties in making strategic decisions due to the lack of a clear and consolidated analysis of the ticket data received by the support team. The lack of a centralized tool to generate insights forces managers to base their actions on intuition rather than concrete data, making it difficult to prevent problems for the customer and optimize resources.
 
 <br>
 
@@ -53,18 +53,18 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     </tr>
     <tr>
         <td>RF01</td>
-        <td>Main Screen with Graphs (Dashboard)</td>
-        <td>The system must have a home screen that visually displays graphs and the most important information extracted from the calls.</td>
+        <td>Main Screen with Charts (Dashboard)</td>
+        <td>The system must have a home screen that visually displays charts and the most important information extracted from the tickets.</td>
     </tr>
     <tr>
         <td>RF02</td>
         <td>Score Critical Applications</td>
-        <td>Users need to easily see which applications generate the most calls to identify quality issues that are below expectations.</td>
+        <td>Users need to easily see which applications generate the most tickets to identify quality issues that are below expectations.</td>
     </tr>
     <tr>
         <td>RF03</td>
-        <td>View Call Evolution</td>
-        <td>The tool should display a graph showing how the number of calls increases or decreases over time.</td>
+        <td>View Ticket Evolution</td>
+        <td>The tool should display a chart showing how the number of tickets increases or decreases over time.</td>
     </tr>
     <tr>
         <td>RF04</td>
@@ -73,13 +73,18 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     </tr>
     <tr>
         <td>RF05</td>
-        <td>Show Overdue Calls</td>
-        <td>The system needs to display how many calls have already exceeded the delivery deadline (SLA) to identify gaps in the support team's performance.</td>
+        <td>Tickets Status</td>
+        <td>The system must display how many tickets have already exceeded the delivery deadline (SLA) in order to identify gaps in the support team's performance and show the status of recently opened tickets.</td>
     </tr>
     <tr>
         <td>RF06</td>
-        <td>Score Critical Categories</td>
-        <td>The user needs to identify which categories generate the most calls to know which teams to contact to change strategies.</td>
+        <td>Highlight Critical Sub-Categories</td>
+        <td>The user needs to identify which sub-categories generate the most tickets to know which teams to contact to change strategies.</td>
+    </tr>
+    <tr>
+        <td>RF07</td>
+        <td>Highlight Latest Open Tickets</td>
+        <td>Display the most important data from the most recent critical tickets.</td>
     </tr>
 </table>
 
@@ -151,7 +156,7 @@ For further details regarding the acceptance criteria, please refer to the [Acce
     <tr align="center">
         <td>2</td>
         <td>High</td>
-        <td align="left">As a decision-maker, I want to identify the categories with the highest number of calls, so I can review action plans and reallocate resources to the most critical sectors.</td>
+        <td align="left">As a decision-maker, I want to identify the sub-categories with the highest number of tickets, so I can review action plans and reallocate resources to the most critical sectors.</td>
         <td>6</td>
         <td>1</td>
         <td>RF01, RF06</td>
@@ -160,7 +165,7 @@ For further details regarding the acceptance criteria, please refer to the [Acce
     <tr align="center">
         <td>3</td>
         <td>High</td>
-        <td align="left">As a decision-maker, I want to analyze the evolution of the number of calls in recent months, segmented by category, to measure the impact of the actions implemented and adjust the strategy when necessary.</td>
+        <td align="left">As a decision-maker, I want to analyze the evolution of the number of tickets in recent months, segmented by category, to measure the impact of the actions implemented and adjust the strategy when necessary.</td>
         <td>8</td>
         <td>1</td>
         <td>RF01, RF03</td>
@@ -178,7 +183,7 @@ For further details regarding the acceptance criteria, please refer to the [Acce
     <tr align="center">
         <td>5</td>
         <td>Medium</td>
-        <td align="left">As a decision-maker, I want to visualize the number of overdue calls to assess the efficiency of the support team and identify potential bottlenecks in service.</td>
+        <td align="left">As a decision-maker, I want to visualize the number of overdue tickets to assess the efficiency of the support team and identify potential bottlenecks in service.</td>
         <td>2</td>
         <td>2</td>
         <td>RF01, RF05</td>
@@ -200,6 +205,15 @@ For further details regarding the acceptance criteria, please refer to the [Acce
         <td>5</td>
         <td>3</td>
         <td>RF04</td>
+        <td>🚧</td>
+    </tr>
+    <tr align="center">
+        <td>8</td>
+        <td>Low</td>
+        <td align="left">As a relationship manager, I want to view a table highlighting the most recent critical open tickets, so that I can quickly identify urgent issues and prioritize customer support.</td>
+        <td>4</td>
+        <td>3</td>
+        <td>RF07</td>
         <td>🚧</td>
     </tr>
 </table>
