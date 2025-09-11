@@ -27,6 +27,7 @@ A branch is a resource that allows the team to work on different versions of the
 - `fix` - Bug fixes, both in development and production.
 - `hotfix` - Urgent fixes of critical bugs in production.
 - `chore` - Maintenance tasks or adjustments without direct impact on the source code.
+- `doc` - Changes exclusively to the documentation (code comments, README, etc.).
 
 ### Example:
 
