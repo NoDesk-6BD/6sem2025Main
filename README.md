@@ -238,6 +238,12 @@ For further details regarding the acceptance criteria, please refer to the [Acce
 
 <br>
 
+### 📐 Figma Prototype
+
+- [Access the Figma file](https://www.figma.com/design/dHNKuh4Zy5JSz5p9c1AoHG/API6Sem?node-id=2-3&t=C1gUp3RQhotGwF20-1)
+
+<br>
+
 ## 📅 Sprint Schedule <a id="sprint"></a>
 
 <table>
