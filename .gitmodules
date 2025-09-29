@@ -1,0 +1,9 @@
+[submodule "6sem2025Frontend"]
+	path = 6sem2025Frontend
+	url = https://github.com/NoDesk-6BD/6sem2025Frontend
+[submodule "6sem2025Backend"]
+	path = 6sem2025Backend
+	url = https://github.com/NoDesk-6BD/6sem2025Backend
+[submodule "6sem2025ETL"]
+	path = 6sem2025ETL
+	url = https://github.com/NoDesk-6BD/6sem2025ETL
