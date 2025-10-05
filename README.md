@@ -64,7 +64,7 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     <tr>
         <td>RF03</td>
         <td>View Call Evolution</td>
-        <td>The tool should display a graph showing how the number of calls increases or decreases over time.</td>
+        <td>The tool should display a graph showing how the number of calls in each category increases or decreases over time.</td>
     </tr>
     <tr>
         <td>RF04</td>
@@ -78,9 +78,25 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     </tr>
     <tr>
         <td>RF06</td>
-        <td>Score Critical Categories</td>
-        <td>The user needs to identify which categories generate the most calls to know which teams to contact to change strategies.</td>
+        <td>Score Critical Subcategories</td>
+        <td>The user needs to identify which subcategories generate the most calls to know which teams to contact to change strategies.</td>
     </tr>
+    <tr>
+        <td>RF07</td>
+        <td>Show the average resolution time of the tickets</td>
+        <td>The system needs to display the average resolution time of the tickets to monitor the support team’s efficiency and identify potential delays.</td>
+    </tr>
+    <tr>
+        <td>RF08</td>
+        <td>Score unhappy clients</td>
+        <td>The system needs to display a ranking of the most dissatisfied clients to take actions that prevent contract termination.</td>
+    </tr>
+    <tr>
+        <td>RF09</td>
+        <td>Screen showing customer satisfaction levels</td>
+        <td>The system must enable the user to filter a specific client to see their satisfaction level and product(s) performance, allowing the user to manage the client relationship.</td>
+    </tr>
+  
 </table>
 
 ## 📋 Non-Functional Requirements
@@ -148,11 +164,11 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     <tr align="center">
         <td>2</td>
         <td>High</td>
-        <td align="left">As a decision-maker, I want to identify the categories with the highest number of calls, so I can review action plans and reallocate resources to the most critical sectors.</td>
+        <td align="left">As a decision-maker, I want to identify the subcategories with the highest number of calls, so I can review action plans and reallocate resources to the most critical sectors.</td>
         <td>6</td>
         <td>1</td>
         <td>RF01, RF06</td>
-        <td>🚧</td>
+        <td>✅</td>
     </tr>
     <tr align="center">
         <td>3</td>
@@ -161,7 +177,7 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
         <td>8</td>
         <td>1</td>
         <td>RF01, RF03</td>
-        <td>🚧</td>
+        <td>✅</td>
     </tr>
     <tr align="center">
         <td>4</td>
@@ -174,6 +190,24 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     </tr>
     <tr align="center">
         <td>5</td>
+        <td>High</td>
+        <td align="left">As a decision-maker, I want to know the most dissatisfied clients so that I can take actions to retain them.</td>
+        <td>10</td>
+        <td>2</td>
+        <td>RF08</td>
+        <td>🚧</td>
+    </tr>
+    <tr align="center">
+        <td>6</td>
+        <td>Medium</td>
+        <td align="left">As a decision-maker, I want to filter a specific client and see their satisfaction level and the performance of the products they have contracted so that I can work on the relationship with that client.</td>
+        <td>10</td>
+        <td>3</td>
+        <td>RF09</td>
+        <td>🚧</td>
+    </tr>
+    <tr align="center">
+        <td>7</td>
         <td>Medium</td>
         <td align="left">As a decision-maker, I want to visualize the number of overdue calls to assess the efficiency of the support team and identify potential bottlenecks in service.</td>
         <td>2</td>
@@ -182,16 +216,16 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
         <td>🚧</td>
     </tr>
     <tr align="center">
-        <td>6</td>
+        <td>8</td>
         <td>Medium</td>
-        <td align="left">As a decision-maker, I want to visualize a specific customer's satisfaction level on a dashboard so I can proactively retain them.</td>
-        <td>20</td>
-        <td>3</td>
-        <td>RF01</td>
+        <td align="left">As a decision-maker, I want to see the average ticket resolution time to track the efficiency of the support team.</td>
+        <td>2</td>
+        <td>2</td>
+        <td>RF01, RF07</td>
         <td>🚧</td>
     </tr>
     <tr align="center">
-        <td>7</td>
+        <td>9</td>
         <td>Low</td>
         <td align="left">As a relationship manager, I want to register application users to control which employees have access to insights.</td>
         <td>5</td>
