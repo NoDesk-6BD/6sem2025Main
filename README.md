@@ -248,7 +248,7 @@ For further details regarding the acceptance criteria, please refer to the [Acce
 <br>
 
 ## 📋 Sprints Documentation <a id="sprints"></a>
-For Sprints Backlog, click [here](documentation/sprints.md).
+For Sprint Backlogs, click [here](documentation/sprints.md).
 
 <br>
 
