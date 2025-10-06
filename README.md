@@ -246,6 +246,10 @@ For further details regarding the acceptance criteria, please refer to the [Acce
 
 <br>
 
+## 📋 Sprints Documentation 
+For Sprint Backlog, click [here](documentation/sprints.md).
+<br>
+
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
 
 - User Stories with **Acceptance Criteria**
