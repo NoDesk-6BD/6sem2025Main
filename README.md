@@ -13,6 +13,7 @@
     <a href ="#solution">Solution</a> |
     <a href ="#requirements">Requirements</a> |
     <a href ="#backlog">Product Backlog</a> |
+    <a href ="#sprints">Sprints Documentation</a> |  
     <a href ="#dor">DoR</a> |
     <a href ="#dod">DoD</a> |
     <a href ="#sprint">Sprint Schedule</a> |
@@ -246,8 +247,9 @@ For further details regarding the acceptance criteria, please refer to the [Acce
 
 <br>
 
-## 📋 Sprints Documentation 
-For Sprint Backlog, click [here](documentation/sprints.md).
+## 📋 Sprints Documentation <a id="sprints"></a>
+For Sprints Backlog, click [here](documentation/sprints.md).
+
 <br>
 
 ## 🏃‍ DoR - Definition of Ready <a id="dor"></a>
@@ -265,6 +267,12 @@ For Sprint Backlog, click [here](documentation/sprints.md).
 - API (Application Programming Interface) Documentation
 - Complete Code
 - Videos of each delivery stage
+
+<br>
+
+### 📐 Figma Prototype
+
+- [Access the Figma file](https://www.figma.com/design/dHNKuh4Zy5JSz5p9c1AoHG/API6Sem?node-id=2-3&t=C1gUp3RQhotGwF20-1)
 
 <br>
 
