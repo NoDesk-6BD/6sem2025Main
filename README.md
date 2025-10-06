@@ -44,6 +44,8 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
 <br>
 
 ## 📋 Functional Requirements <span id="requirements">
+<details>
+<summary>Show/Hide Functional Requirements</summary>
 
 <table>
     <tr>
@@ -98,8 +100,12 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     </tr>
   
 </table>
+</details>
 
 ## 📋 Non-Functional Requirements
+
+<details>
+<summary>Show/Hide Non-Functional Requirements</summary>
 
 <table>
     <tr>
@@ -137,6 +143,7 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
         <td>The platform must have an intuitive interface for business users and be accompanied by a manual detailing its functionalities (User Manual).</td>
     </tr>
 </table>
+</details>
 
 <br>
 
@@ -200,28 +207,28 @@ Develop the <**_> platform, a Business Intelligence (BI) tool that connects to P
     <tr align="center">
         <td>6</td>
         <td>Medium</td>
-        <td align="left">As a decision-maker, I want to filter a specific client and see their satisfaction level and the performance of the products they have contracted so that I can work on the relationship with that client.</td>
-        <td>10</td>
-        <td>3</td>
-        <td>RF09</td>
-        <td>🚧</td>
-    </tr>
-    <tr align="center">
-        <td>7</td>
-        <td>Medium</td>
-        <td align="left">As a decision-maker, I want to visualize the number of overdue calls to assess the efficiency of the support team and identify potential bottlenecks in service.</td>
+        <td align="left">As a decision-maker, I want to see overdue calls to assess the support team’s efficiency.</td>
         <td>2</td>
         <td>2</td>
         <td>RF01, RF05</td>
         <td>🚧</td>
     </tr>
     <tr align="center">
-        <td>8</td>
+        <td>7</td>
         <td>Medium</td>
         <td align="left">As a decision-maker, I want to see the average ticket resolution time to track the efficiency of the support team.</td>
         <td>2</td>
         <td>2</td>
         <td>RF01, RF07</td>
+        <td>🚧</td>
+    </tr>
+    <tr align="center">
+        <td>8</td>
+        <td>Medium</td>
+        <td align="left">As a decision-maker, I want to filter a specific client and see their satisfaction level and the performance of the products they have contracted so that I can work on the relationship with that client.</td>
+        <td>10</td>
+        <td>3</td>
+        <td>RF09</td>
         <td>🚧</td>
     </tr>
     <tr align="center">
